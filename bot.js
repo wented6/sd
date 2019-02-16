@@ -19,7 +19,7 @@ p1.on('guildMemberAdd', member => {
 const fuli= member.guild.channels.get("545257908334755852");
 if(!fuli) return;
 if(fuli) {
-setTimeout(() => fuli.send(`You're in **Fearless** Welcome **..**`), 4000)
+setTimeout(() => fuli.send(`You're in **Bravery** Welcome **..**`), 4000)
 }
 });
 
@@ -31,7 +31,7 @@ p2.on('guildMemberAdd', member => {
 const fuli= member.guild.channels.get("545257908334755852");
 if(!fuli) return;
 if(fuli) {
-setTimeout(() => fuli.send(`You're in **Fearless** Welcome **..**`), 3700)
+setTimeout(() => fuli.send(`You're in **Bravery** Welcome **..**`), 3700)
 }
 });
 
