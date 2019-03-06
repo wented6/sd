@@ -1,9 +1,18 @@
-const D1 = require('discord.js');
+const Discord = require('discord.js');
 
 
+const client = new Discord.Client();
+
+
+
+
+
+
+
+});
 
     console.log("oNNN1");
-p1.on('guildMemberAdd', member => {
+client.on('guildMemberAdd', member => {
 const fuli= member.guild.channels.get("517077578515742781");
 if(!fuli) return;
 if(fuli) {
@@ -20,4 +29,5 @@ setTimeout(() => fuli.send(`Welcome To **Black Sky ..**`), 4000)
 
 
 
-p1.login(process.env.B);
+
+client.login(process.env.B);
