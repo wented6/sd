@@ -9,7 +9,7 @@ const client = new Discord.Client();
 
 
 
-});
+
 
     console.log("oNNN1");
 client.on('guildMemberAdd', member => {
